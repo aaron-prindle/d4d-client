@@ -15,9 +15,10 @@ d4d.prototype.how_true_is = function(concept1_or_any_format_assertion,
         type: 'POST',
         contentType: 'application/json',
         crossDomain: true,
+	cache: false,
         data: JSON.stringify(message),
         dataType: 'json',
-        url: '18.233.0.124:5000' + '/'+this.instance+'/how_true_is',
+        url: 'http://18.233.0.124:5000' + '/'+this.instance+'/how_true_is',
         success: function (data) {
             callback(data);
         }
