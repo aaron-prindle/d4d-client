@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+#container{
+    width: 90%;
+    float: left;
+    overflow: hidden; /* instead of clearfix div */
+}
+#terminal {
+  float: left;
+  width: 800px;
+}
+#info {
+  float: right;
+  width: 450px;
+}
+#spacer{
+    overflow: hidden;
+    background: #DEDEDE;
+}
